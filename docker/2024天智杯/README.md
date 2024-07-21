@@ -22,7 +22,7 @@
 赛道一要求：*主机CPU架构为x86_64，运行环境包括64位Linux（Ubuntu 16.04/Ubuntu 18.04，CentOS 7）操作系统;CUDA环境要求高于等于10.0，低于12.4版本*
 
 从 [docker hub](https://hub.docker.com/) 找到符合要求的基础镜像：① CUDA 11.6；② Ubuntu 18.04;
-![alt text](image.png)
+![alt text](../asset/cuda.png)
 
 devel时编译时cuda；runtime是运行时cuda，会缺少编译功能，无法手动安装需要编译的包。因此选择选择cudnn+devel的配置，即`docker pull nvidia/cuda:11.6.2-cudnn8-devel-ubuntu18.04`
 
