@@ -1,2 +1,2 @@
-# M-I-G-E-X-P-s
+# MIG-EXPs
 快充电池
